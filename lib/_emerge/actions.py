@@ -3336,7 +3336,7 @@ def repo_name_check(trees):
     # Skip warnings about missing repo_name entries for
     # /usr/local/portage (see bug #248603).
     try:
-        missing_repo_names.remove("/usr/local/portage")
+        missing_repo_names.remove("/home/anton/XorLAB/PORTABLE_PORTAGE/root/usr/local/portage")
     except KeyError:
         pass
 

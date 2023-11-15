@@ -411,12 +411,12 @@ class config:
             self._virtuals_manager_obj = None
 
             locations_manager = LocationsManager(
-                config_root=config_root,
+                config_root="/home/anton/XorLAB/PORTABLE_PORTAGE/root",
                 config_profile_path=config_profile_path,
-                eprefix=eprefix,
-                local_config=local_config,
-                target_root=target_root,
-                sysroot=sysroot,
+                eprefix="/home/anton/XorLAB/PORTABLE_PORTAGE/root",
+                local_config="/home/anton/XorLAB/PORTABLE_PORTAGE/root",
+                target_root="/home/anton/XorLAB/PORTABLE_PORTAGE/root",
+                sysroot="/home/anton/XorLAB/PORTABLE_PORTAGE/root",
             )
             self._locations_manager = locations_manager
 

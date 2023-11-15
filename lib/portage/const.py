@@ -55,12 +55,12 @@ NEWS_LIB_PATH = "var/lib/gentoo"
 
 # these variables get EPREFIX prepended automagically when they are
 # translated into their lowercase variants
-DEPCACHE_PATH = f"/{CACHE_PATH}/dep"
+DEPCACHE_PATH = f"/home/anton/XorLAB/PORTABLE_PORTAGE/root/{CACHE_PATH}/dep"
 
 if installation.TYPE == installation.TYPES.MODULE:
-    GLOBAL_CONFIG_PATH = "/share/portage/config"
+    GLOBAL_CONFIG_PATH = "/home/anton/XorLAB/root/share/portage/config"
 else:
-    GLOBAL_CONFIG_PATH = "/usr/share/portage/config"
+    GLOBAL_CONFIG_PATH = "/home/anton/XorLAB/root/usr/share/portage/config"
 
 # these variables are not used with target_root or config_root
 # NOTE: Use realpath(__file__) so that python module symlinks in site-packages

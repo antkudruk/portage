@@ -14,7 +14,7 @@ from portage.output import xtermTitle
 # dblink.merge() and we don't want that to trigger log writes
 # unless it's really called via emerge.
 _disable = True
-_emerge_log_dir = "/var/log"
+_emerge_log_dir = "/home/anton/XorLAB/PORTABLE_PORTAGE/root/var/log"
 
 
 def emergelog(xterm_titles, mystr, short_msg=None):
